@@ -2,21 +2,19 @@
 
   Influx Line Protocol Web Server - extenstion to to 'Web Server'
 
-  A simple web server that shows the value of the analog input pins.
-  using an Arduino Wiznet Ethernet shield.
+  NodeMCU Web Server with 1wire temperature sensors
+  
+  TODO: 
+    - Refactor and clean up for public release
+    - Remove commented blocks
+    - Better doc up top
 
-  Circuit:
-   Ethernet shield attached to pins 10, 11, 12, 13
-   Analog inputs attached to pins A0 through A5 (optional)
+  Created to tinker by Kelsey Comstock 23 Jan 2019, courtesy of:
+ 
+  David A. Mellis   - original creator of "Web Server" for Arduino - 18 Dec 2009
+  Tom Igoe          - modified 9 Apr 2012
+  Arturo Guadalupi  - modified 02 Sept 2015
 
-  created 18 Dec 2009
-  by David A. Mellis
-  modified 9 Apr 2012
-  by Tom Igoe
-  modified 02 Sept 2015
-  by Arturo Guadalupi
-  modified 23 Jan 2018 (to Influx Line Protocol Output)
-  by Kelsey Comstock
 */
 
 #include <SPI.h>
